@@ -83,12 +83,6 @@ public final class ArraysList {
             // Sort array
             Arrays.sort(array);
 
-            // Display sorted array
-            for (int displayCounter = 0; displayCounter
-                < size; displayCounter++) {
-                System.out.println(array[displayCounter]);
-            }
-
             // Convert size to float
             Float sizeFloat = size * 1f;
 
